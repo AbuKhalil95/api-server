@@ -1,0 +1,43 @@
+{
+  "categories" : {
+    "count": 2,
+    "results":[
+    {
+      "id": "1",
+      "name": "Solar_Products",
+      "display_name": "Solar Power Products",
+      "description": "Source your electricity from the latest solar technologies."
+    },
+    {
+      "id": "2",
+      "name": "Wind_Products",
+      "display_name": "Wind Power Products",
+      "description": "Source your electricity from the latest wind technologies."
+    }]
+    }, 
+  "products": {
+    "count": 3,
+    "results":[
+    {
+      "id": "1",
+      "category": "Solar_Products",
+      "name": "pv_on_grid ",
+      "display_name": "On-Grid PV System",
+      "description": "A simple grid connected system to reduce electric bill."
+    },
+    {
+      "id": "2",
+      "category": "Solar_Products",
+      "name": "pv_off_grid",
+      "display_name": "Off-Grid PV System",
+      "description": "A bit more complicated independent system to supply the total electric needs."
+    },
+    {
+      "id": "3",
+      "category": "Wind_Products",
+      "name": "wind_off_grid",
+      "display_name": "Off-Grid Wind System",
+      "description": "A more complicated independent system to supply even bigger electric needs at a smaller area."
+    }]
+  }
+}
