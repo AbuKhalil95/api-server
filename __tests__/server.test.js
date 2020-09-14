@@ -30,9 +30,9 @@ describe('web server tests on all routes', ()=> {
     });
   });
 
-  it('should respond with 200 PUT /categories/:id for valid id', ()=>{
+  it('should respond with 202 PUT /categories/:id for valid id', ()=>{
     return mockRequest.put('/categories/1').then(result=>{
-        expect(result.status).toBe(200);
+        expect(result.status).toBe(202);
     });
   });
 
@@ -42,9 +42,9 @@ describe('web server tests on all routes', ()=> {
     });
   });
 
-  it('should respond with 200 DELETE /categories/:id for valid id', ()=>{
+  it('should respond with 202 DELETE /categories/:id for valid id', ()=>{
       return mockRequest.delete('/categories/1').then(result=>{
-          expect(result.status).toBe(500);
+          expect(result.status).toBe(202);
       });
   });
 
