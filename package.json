@@ -1,0 +1,35 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "API maker server provider",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "nodemon -L ./index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbuKhalil95/api-server.git"
+  },
+  "author": "Yahya Abu Khalil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbuKhalil95/api-server/issues"
+  },
+  "homepage": "https://github.com/AbuKhalil95/api-server#readme"
+}
