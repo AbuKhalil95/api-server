@@ -8,16 +8,22 @@ Links and Resources
 [Github actions](https://github.com/AbuKhalil95/api-server)
 
 ### Modules and Middlewares
-- [`server.js`](lib/server.js)
-- [`timestamp.js`](lib//middleware/timestamp.js)
-- [`logger.js`](lib//middleware/logger.js)
-- [`404.js`](lib//middleware/404.js)
-- [`500.js`](lib//middleware/500.js)
+- [`server.js`](lib/server.js) server module as a centralized base of operations.
+- [`timestamp.js`](lib//middleware/timestamp.js) a middleware for timestamps
+- [`logger.js`](lib//middleware/logger.js) a middleware to print out each request
+- [`404.js`](lib//middleware/404.js) error not found middleware
+- [`500.js`](lib//middleware/500.js) error input/logic middleware
+
+### Database and Routes
+- [`mongo.js`](lib/models/mongo.js) is the primary model/collection that is extended into each of product and category.
+- [`./lib/models`](lib/models). contain the model and schema for each of product and category.
+- [`./lib/routes`](lib/routes). contain both routes separately.
 
 ### Setup
 Clone the repo, and run the following commands to install the required dependencies and dev dependencies. 
 - `npm install` to download all that exists in `package.json`.
 - `sudo npm install -g json-server` to test the json-server mock server.
+- `npm install mongoose` to run the database properly, and start it beforehand.
 
 ### Running the app
 - `npm start` to test the server yourself using postman.
