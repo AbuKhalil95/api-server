@@ -11,7 +11,7 @@ describe('web server tests on all routes', ()=> {
     const record = data.body;
     Object.keys(category).forEach(key=> {
       expect(record[key]).toEqual(category[key]);
-   });
+    });
   });
 
   it('should respond with 200 GET /api/v1/categories/:id for valid id', ()=>{
