@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.8.0",
-    "mongoose": "^5.10.5",
+    "mongoose": "^5.10.6",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
